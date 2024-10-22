@@ -1,0 +1,142 @@
+body{
+    animation: fadeInBody 1.5s ease-in-out;
+}
+.header {
+    background-color:rgb(90, 8, 76) ;
+    padding: 10px;
+    overflow: hidden;
+}
+.header h1{
+    color: white;
+    font-size: 30px;
+}
+nav {
+    color: white;
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: #d842f3;
+}
+
+.oo{
+    background-color: rgb(248, 241, 250);
+}
+.gg{
+    display: flex;
+    margin-top: -20px;
+}
+.gg li{
+    margin-left: 40px;
+    color: white;
+    text-decoration: none;
+list-style-type: none;
+margin-top: -20px;
+}
+.hero{
+    text-align: center;
+  position: relative;
+  animation: mymove 5s;
+  animation: fadeInHero 2s ease-in-out;
+}
+.hero img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    padding: 10px;
+
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.hero h1{
+    color: blueviolet;
+    font-size: 50px;
+
+}
+.hero p{
+    font-size: 30px;
+}
+.intro h2{
+    color: rgb(136, 35, 136);
+    
+}
+.services h2{
+    color: rgb(136, 35, 136);
+}
+.testimonial h2{
+    color: rgb(136, 35, 136);
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.contact-form button{
+    background-color: gray;
+    color: black;
+    gap: 5px;
+}
+.contact-form input{
+    font-size: 6mm;
+}
+.contact-form h2{
+    color: rgb(136, 35, 136);
+}
+.contact-form button {
+    width: 100%;
+    background-color: #f423ae;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #d842f3;
+  }
+  .sidebar h2{
+    color: rgb(136, 35, 136);
+
+  }
+  .sidebar a{
+    color: black;
+  }
+  .footer{
+    background-color:rgb(90, 8, 76) ;
+    padding: 10px;
+    overflow: hidden;
+  }
+  .footer p{
+    color: white;
+    text-align: center;
+  }
+  @keyframes mymove {
+    from {right: 0px;}
+    to {right: 100px;}
+  }
+  @keyframes fadeInHero {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+}
+@keyframes fadeInBody {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
